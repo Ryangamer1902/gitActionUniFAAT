@@ -1,8 +1,7 @@
-def test_soma():
-    assert soma(2, 3) == 999  # valor errado propositalmentefrom app.calc import soma, multiplica, divisao, subtracao
+from app.calc import soma, multiplica, divisao, subtracao
 
 def test_soma():
-    assert soma(2, 3) == 5
+    assert soma(2, 3) == 999  # valor errado propositalmente
 
 def test_subtracao():
     assert subtracao(3, 2) == 1
