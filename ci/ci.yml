@@ -1,5 +1,14 @@
 name: CI
 
+on:
+  push:
+    branches:
+      - main
+      - minha-nova-feature
+  pull_request:
+    branches:
+      - main
+      - minha-nova-feature
 
 jobs:
   test:
